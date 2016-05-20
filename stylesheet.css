@@ -1,0 +1,23 @@
+body
+{
+	background-color: rgb(20,20,20);
+	color: white;
+}
+#left
+{
+	height: 500px;
+	width: 49%;
+	background-color: rgb(25,25,25);
+	float:left;
+}
+#output
+{
+	background-color = white;
+}
+#right
+{
+	height: 500px;
+	width: 49%;
+	background-color: white;
+	float:right;
+}
