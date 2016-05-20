@@ -4,6 +4,7 @@
 		<title class="text">Color Temperature Converter</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<script src="colorTempToRGB.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="pageFunctionality.js"></script>
 	</head>
 	<body>
@@ -12,15 +13,13 @@
 			<p>
 				<b>Color temperature (Kelvin)</b>
 				<input type="text" id="textField">
-				<button onclick="convert();">Convert</button>
+				<button id="submitButton">Convert</button>
 			</p>
 			<div id="output">
 				RGB (dec) =<br>
 				RGB (hex) =
 			</div>
 		</div>
-		<div id="right">
-			
-		</div>
+		<div id="right"></div>
 	</body>
 </html>
